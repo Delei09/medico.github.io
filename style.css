@@ -324,9 +324,15 @@ footer h2{
     padding: 50px;
     color: #0EDFD9;
 }
+.but-nav{
+    display: none;
+}
 
 /*media query*/
 @media screen and (max-width:990px){
+    .but-nav{
+    display: block;;
+    }
     #botao{
         cursor: pointer
     }
